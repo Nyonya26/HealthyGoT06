@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register HealthyGo</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+
+<div class="auth-container">
+    <div class="auth-card">
+
+        <h1>HealthyGo 💛</h1>
+        <h2>Buat Akun Baru</h2>
+        <p>Daftarkan dirimu untuk mulai hidup sehat.</p>
+
+        <form action="register.php" method="POST">
+
+            <label>Nama Lengkap</label>
+            <input type="text"
+                   name="nama_pengguna"
+                   placeholder="Masukkan nama"
+                   required>
+
+            <label>Email</label>
+            <input type="email"
+                   name="email"
+                   placeholder="Masukkan email"
+                   required>
+
+            <label>Password</label>
+            <input type="password"
+                   name="password"
+                   placeholder="Buat password"
+                   required>
+
+            <button type="submit">Daftar Sekarang</button>
+
+        </form>
+
+        <p>Sudah punya akun?
+            <a href="login.html">Login di Sini</a>
+        </p>
+
+        <a href="index.php">Kembali ke Beranda</a>
+
+    </div>
+</div>
+
+</body>
+</html>
